@@ -153,7 +153,7 @@ while True:
             if (isWinner(theBoard,playersLetter)):
                 drawBoard(theBoard)
                 print("You have matched three in a row.")
-                print("You win!")
+                print("You win but youre cute!")
                 gameInProgress = False
             else:
                 if isBoardFull(theBoard):
@@ -169,12 +169,12 @@ while True:
 
             if isWinner(theBoard,computersLetter):
                 drawBoard(theBoard)
-                print("The computer has won!")
+                print("The computer has really really wow won!")
                 gameInProgress = False
             else:
                 if isBoardFull(theBoard):
                     drawBoard(theBoard)
-                    print("It's a tie!")
+                    print("It's a tie because you are stupid!")
                     break
                 else:
                     turn = 'Player'
